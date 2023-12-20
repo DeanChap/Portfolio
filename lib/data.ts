@@ -1,5 +1,6 @@
 import geritchImg from "@/public/geritch.png";
-import ecommerceImg from "@/public/ecommerce.png";
+import ecommerceImg from "@/public/ecommerce.png"
+import teslaImg from "@/public/tesla.png"
 
 export const links = [
   {
@@ -22,12 +23,12 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Ecommerce-Dashboard",
+    title: "Tesla-Clone",
     description:
-      "Developed a responsive ecommerce website with seamless integration to the backend dashboard.",
-    tags: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "MySQL", "Prisma"],
-    imageUrl: ecommerceImg,
-    url: () => console.log("Ecommerce clicked"),
+      "Developed an interactive web app inspired by the official Tesla website, featuring dynamic and responsive design elements.",
+    tags: ["React", "Tailwind CSS"],
+    imageUrl: teslaImg,
+    url: () => "https://tesla-clone-by-deanchap.netlify.app/",
   },
   {
     title: "Geritch Restaurant",
@@ -35,15 +36,16 @@ export const projectsData = [
       "Designed and developed a vibrant restaurant website featuring an inviting landing page that captures the essence of the dining experience.",
     tags: ["React.js", "CSS", "JavaScript"],
     imageUrl: geritchImg,
-    url: () => console.log("geritch clicked"),
+    url: () => console.log("Restaurant clicked") ,
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "Ecommerce-Dashboard",
+    description:
+      "Developed a responsive ecommerce website with seamless integration to the backend dashboard.",
+    tags: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "MySQL", "Prisma"],
+    imageUrl: ecommerceImg,
+    url: () => console.log("Ecommerce clicked"),
+  },
 ] as const;
 
 export const skillsData = [

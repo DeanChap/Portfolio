@@ -39,14 +39,14 @@ export default function Intro() {
           >
             <a
               className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer hover:bg-black/80 hover:text-gray-100 border-2 border-black dark:bg-white/10 dark:text-gray-400 dark:border-0.5 dark:hover:border-gray-400"
-              href="/Resume.pdf"
+              href="/Dean_Chap_Resume.pdf"
               download
             >
               Download Resume {" "}<BsDownload className='opacity-60 group-hover:translate-y-1 transition'/> 
             </a>
             <a
               className="bg-white p-4 text-gray-700 hover:text-gray-100 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer hover:bg-black/80 border-2 border-black dark:bg-white/10 dark:text-white/60"
-              href="https://www.linkedin.com/in/dean-chapotarongo-721537187/"
+              href="https://www.linkedin.com/in/dean-chap-721537187/"
               target="_blank"
             >
               <BsLinkedin/>
