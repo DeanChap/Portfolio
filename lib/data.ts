@@ -28,7 +28,7 @@ export const projectsData = [
       "Developed an interactive web app inspired by the official Tesla website, featuring dynamic and responsive design elements.",
     tags: ["React", "Tailwind CSS"],
     imageUrl: teslaImg,
-    url: () => "https://tesla-clone-by-deanchap.netlify.app/",
+    url: "https://tesla-clone-by-deanchap.netlify.app/",
   },
   {
     title: "Geritch Restaurant",
