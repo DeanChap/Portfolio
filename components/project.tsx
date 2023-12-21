@@ -22,6 +22,16 @@ export default function Project({
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
+  const handleProjectClick = () => {
+    if (typeof url === "string") {
+      // Open the URL in a new tab
+      window.open(url, "_blank");
+    } else if (typeof url === "function") {
+      // Execute the provided function
+      url();
+    }
+  };
+
   return (
     <motion.div
       ref={ref}
@@ -32,7 +42,7 @@ export default function Project({
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <motion.div
-      onClick={url}
+      onClick={handleProjectClick}
       className="cursor-pointer"
       >
         <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20">
