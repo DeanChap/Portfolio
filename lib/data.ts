@@ -36,7 +36,7 @@ export const projectsData = [
       "Designed and developed a vibrant restaurant website featuring an inviting landing page that captures the essence of the dining experience.",
     tags: ["React.js", "CSS", "JavaScript"],
     imageUrl: geritchImg,
-    url: () => console.log("Restaurant clicked") ,
+    url: "https://restaurant-v2.netlify.app/" ,
   },
   {
     title: "Ecommerce-Dashboard",
