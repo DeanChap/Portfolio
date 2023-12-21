@@ -21,7 +21,7 @@ module.exports = {
     require('tailwind-typewriter')({
       wordsets: {
         forHeader: {
-          words: ['full-stack-developer', 'data-analyst'],
+          words: ['Full-Stack-Developer', 'Data-Analyst'],
           repeat: -1,
           eraseSpeed: 0.1
         }
