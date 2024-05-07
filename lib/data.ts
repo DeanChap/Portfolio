@@ -23,7 +23,7 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Tesla-Clone",
+    title: "Tesla",
     description:
       "Developed an interactive web app inspired by the official Tesla website, featuring dynamic and responsive design elements.",
     tags: ["React", "Tailwind CSS"],
@@ -39,9 +39,9 @@ export const projectsData = [
     url: "https://restaurant-v2.netlify.app/",
   },
   {
-    title: "Ecommerce-Dashboard",
+    title: "Hippo Inc",
     description:
-      "Developed a responsive ecommerce website with seamless integration to the backend dashboard.",
+      "Developing a responsive ecommerce website with seamless integration to the backend dashboard.",
     tags: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "MySQL", "Prisma"],
     imageUrl: ecommerceImg,
     url: () => console.log("Ecommerce clicked"),
@@ -50,20 +50,13 @@ export const projectsData = [
 
 export const skillsData = [
   "HTML",
-  "CSS",
+  "Tailwind CSS",
   "JavaScript",
   "TypeScript",
   "React.js",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
   "MongoDB",
   "MySQL",
-  "SQL",
   "Python",
-  "Framer Motion",
-  "Tableau",
-  "Figma",
-  "Excel",
 ] as const;
